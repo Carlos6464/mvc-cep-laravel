@@ -1,3 +1,45 @@
+# 📌 Gerenciador de CEPs com Laravel e MySQL  
+
+Este projeto foi desenvolvido utilizando o **Laravel** como framework backend e **MySQL** como banco de dados. O sistema permite a busca de **CEPs** por meio da **API ViaCEP**, salvando os resultados no banco de dados para futuras consultas. Além disso, o projeto inclui funcionalidades para listar todos os CEPs cadastrados e excluí-los conforme necessário.  
+
+---
+
+## 🚀 Principais Funcionalidades  
+
+- ✅ **Busca de CEPs na API ViaCEP** – O usuário pode inserir um CEP, e o sistema consulta automaticamente os detalhes como rua, bairro, cidade e estado.  
+- ✅ **Cadastro no Banco de Dados** – Após a consulta, o CEP é salvo no banco MySQL para futuras referências.  
+- ✅ **Listagem de CEPs cadastrados** – O sistema exibe todos os CEPs já armazenados, permitindo ao usuário visualizar rapidamente os dados registrados.  
+- ✅ **Exclusão de CEPs** – O usuário pode remover CEPs cadastrados no banco de dados, garantindo que apenas informações relevantes sejam mantidas.  
+
+---
+
+## 🔧 Tecnologias Utilizadas  
+
+- **Laravel** – Framework PHP para o desenvolvimento backend.  
+- **MySQL** – Banco de dados para armazenar os CEPs.  
+- **API ViaCEP** – Serviço utilizado para buscar os dados do endereço a partir do CEP.  
+- **Blade (Laravel Views)** – Engine de templates para exibição dos dados.  
+- **Bootstrap & SweetAlert2** *(opcional)* – Para melhorar a interface e a experiência do usuário.  
+
+---
+
+## 🏗 Possíveis Melhorias Futuras  
+
+- 📌 Implementação de autenticação para gerenciar usuários e seus CEPs.  
+- 📌 Edição dos CEPs já cadastrados.  
+- 📌 Integração com APIs de mapas para exibir a localização do CEP.  
+
+---
+
+## 📜 Licença  
+
+Este projeto é de código aberto e pode ser modificado conforme necessário.  
+
+🚀 **Desenvolvido com Laravel e paixão por código!** 🔥  
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
